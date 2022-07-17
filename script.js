@@ -67,7 +67,7 @@ window.addEventListener('scroll', function(){
     if(document.documentElement.scrollTop > 20){
       $(".header").css("background-color", "rgba(255, 255, 255, 1)");
       $(".header").css("padding", "1.5vh 10vw 1.5vh 10vw");
-      $(".header").css("border-bottom", "0.07vw solid rgba(35, 36, 42, 0.05)");
+      $(".header").css("border-bottom", "0.15vw solid rgba(35, 36, 42, 0.05)");
     }
     else {
       $(".header").css("background-color", "rgba(255, 255, 255, 0)");
