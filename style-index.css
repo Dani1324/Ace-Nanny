@@ -594,7 +594,7 @@ button h5{
     margin-top: 1.45vw;
     width: 5vw;
     height: 4vw;
-    margin-left: calc(68vw - 3.1vw - 11.24vw);
+    margin-left: calc(62.7vw - 3.1vw - 11.24vw);
     z-index: 999;
   }
 
@@ -621,7 +621,7 @@ button h5{
 
   .logo{
     padding: 1.3vw 0;
-    height: 4vw;
+    height: 5vw;
     transition: opacity 1s;
     z-index: 999;
   }
