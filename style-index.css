@@ -225,6 +225,7 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
   background-color: rgba(255, 255, 255, 0);
   transition: all 0.3s;
   z-index: 2;
+  border-bottom: 0vw solid rgba(35, 36, 42, 0.05);
 }
 
 .logo{
@@ -575,6 +576,7 @@ button h5{
     z-index: 50;
     display: block;
     transition: all 1s cubic-bezier(.215,.61,.355,1);
+    border-left: 0.1vw solid rgba(35, 36, 42, 0.05)
   }
 
   .menu a{
