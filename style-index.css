@@ -560,6 +560,15 @@ button h5{
 
 @media (max-width: 1025px) {
 
+  /* Parallax background */
+  #parallax-bg-3{
+    margin-top: 255vh;
+  }
+
+  #parallax-bg-4{
+    margin-top: 170vh;
+  }
+
   /* Header */
   .header{ padding: 2.5vh 10vw;}
   .links, #header-button{ display: none;}
