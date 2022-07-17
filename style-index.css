@@ -432,13 +432,14 @@ button h5{
 }
 
 .block ul{
-  padding: 2.5vw;
+  padding: 2.5vw 2.5vw 2.5vw 4vw;
 }
 
 .block li{
   margin-bottom: 0.4vw;
   color: rgba( 35, 36, 41, 0.7);
   font-size: 1.27vw;
+  list-style-type: disc;
 }
 
 .section h6{
@@ -801,7 +802,6 @@ button h5{
     margin-bottom: 1.2vw;
     font-size: 2.27vw;
     line-height: 1.4;
-    list-style-type: disc;
   }
 
   .section h6{
