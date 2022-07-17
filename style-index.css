@@ -756,7 +756,7 @@ button h5{
     font-size: 2.7vw;
   }
 
-  #aligned-image{ height: 12vw; top: 473vw; right: 23vw;}
+  #aligned-image{ height: 12vw; top: 12vw; right: 14vw; z-index: 900;}
   #parents{ height: 40vw;}
 
 
