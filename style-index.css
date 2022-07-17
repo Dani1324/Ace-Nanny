@@ -785,13 +785,18 @@ button h5{
     padding: 5vw;
   }
 
-  .block-top img{ width: 8vw;}
+  .block-top img{ width: 8vw; height: 8vw;}
 
   .block-top h3{
     margin-left: 3vw;
     padding-top: 3vw;
-    font-size: 2.95vw;
+    font-size: 3.6vw;
     letter-spacing: -0.02vw;
+  }
+
+  #title-adjutment{
+    padding-top: 0vw;
+    line-height: 1.2;
   }
 
   .block ul{
@@ -800,7 +805,7 @@ button h5{
 
   .block li{
     margin-bottom: 1.2vw;
-    font-size: 2.8vw;
+    font-size: 3.4vw;
     line-height: 1.4;
   }
 
