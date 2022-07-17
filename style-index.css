@@ -713,13 +713,16 @@ button h5{
     height: 9vw;
     border-radius: 4.5vw;
     margin: 15vw 25vw 24vw 25vw;
+    transform: translateX(-100vw);
   }
 
   .main-button p{
     font-size: 3.6vw;
   }
 
-  .main-button:active{ transform: scale(0.95);}
+  .main-button:active{ transform: scale(0.95); transform: translateX(-100vw);}
+
+  #popup-link{ margin-left: 100vw;}
 
 
   /* Advantages */
