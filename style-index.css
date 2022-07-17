@@ -258,7 +258,7 @@ button{
   height: 2.54vw;
   cursor: pointer;
   border-radius: 1.27vw;
-  transition: 0.20s;
+  transition: 0.25s;
   color: #fff;
 }
 
@@ -268,12 +268,7 @@ button:hover{
   border: 1.5px solid #2CC8D4;
 }
 
-.scalebutton{
-  transition: all 0.20s;
-  width: 9.17vw;
-}
-
-.scalebutton:active{
+button:active{
   transform: scale(0.95);
 }
 
@@ -640,10 +635,10 @@ button h5{
   /* Popup settings */
   .popup{
     margin-top: 40vw;
-    padding: 11vw 6% 0vw 6%;
+    padding: 12vw 6% 0vw 6%;
     border-radius: 4vw;
     width: 70%;
-    height: 100vw;
+    height: 98vw;
   }
 
   .popup .close{ top: 5.5vw; right: 7vw; font-size: 6.5vw;}
@@ -656,7 +651,7 @@ button h5{
   }
 
   .popup h3{
-    font-size: 3.1vw;
+    font-size: 3vw;
     line-height: 1.3;
     padding-bottom: 6vw;
   }
@@ -713,16 +708,16 @@ button h5{
     height: 9vw;
     border-radius: 4.5vw;
     margin: 15vw 25vw 24vw 25vw;
-    transform: translateX(-100vw);
   }
 
   .main-button p{
     font-size: 3.6vw;
   }
 
-  .main-button:active{ transform: scale(0.95); transform: translateX(-100vw);}
+  .main-button:active{ transform: scale(0.95);}
 
   #popup-link{ margin-left: 100vw;}
+  #popup-link button{ transform: translateX(-100vw);}
 
 
   /* Advantages */
