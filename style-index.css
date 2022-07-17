@@ -585,7 +585,7 @@ button h5{
     z-index: 50;
     display: block;
     transition: all 1s cubic-bezier(.215,.61,.355,1);
-    border-left: 0.15vw solid rgba(35, 36, 42, 0.05)
+    border-left: 0.25vw solid rgba(35, 36, 42, 0.05)
   }
 
   .menu a{
