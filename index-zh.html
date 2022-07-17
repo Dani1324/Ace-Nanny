@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS animations library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Altre impostazioni del sito -->
+    <title>ACE NANNY</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="shortcut icon" href="resources/logo.svg">
+
+  </head>
+  <body>
+
+    <!-- Parallax background -->
+    <div id="parallax-bg-1">
+      <div></div>
+    </div>
+    <div id="parallax-bg-2">
+      <div></div>
+    </div>
+    <div id="parallax-bg-3">
+      <div></div>
+    </div>
+    <div id="parallax-bg-4">
+      <div></div>
+    </div>
+
+    <!-- Language mini popup -->
+    <div class="language-popup">
+      <a href="#"><p>英文</p></a>
+      <a href="index.html"><p>English</p></a>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="overlay">
+      <div class="popup">
+        <h2>Let us know your needs</h2>
+        <h3>we'll get back to you with nanny options ASAP.</h3>
+        <a class="close" onclick="javascript:history.back()">&times;</a>
+        <form action="https://formsubmit.co/05a475cbab3bf6f7401df5a441aff4de" method="POST">
+           <input type="text" name="name" class="text-box" placeholder="Your name" required>
+           <input type="email" name="email" class="text-box" placeholder="Your email" required>
+           <textarea name="comment" id="comment" placeholder="Your needs or requirements" rows="8"></textarea>
+           <input name="_formsubmit_id" type="text" style="display:none">
+           <input type="hidden" name="_subject" value="New client!">
+           <input type="hidden" name="_next" value="index.html">
+           <input type="hidden" name="_captcha" value="false">
+           <input type="hidden" name="_template" value="table">
+           <input type="hidden" name="_next" value="https://crreo.github.io/web/index.html">
+           <button class="send-btn" type="submit"><p>Send</p></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <a id="ciao" href="#hero"><img class="logo" src="resources/logo.svg"></a>
+      <div class="links">
+        <a href="#hero" id="ciao"><h4>为什么选择AceNanny</h4></a>
+        <a href="fans.html"><h4>新手父母</h4></a>
+        <a href="plans.html"><h4>保姆阿姨</h4></a>
+        <a href="plans.html"><h4>定价方案</h4></a>
+        <a href="contact.html"><h4>内容中心</h4></a>
+        <a href="about.html"><h4>关于我们</h4></a>
+      </div>
+      <a class="languages"><img class="logo" src="resources/world.svg"></a>
+      <div class="scalebutton" id="header-button">
+        <a href="#popup">
+          <button>
+            <h5><span>一键雇佣</span></h5>
+          </button>
+        </a>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu">
+        <a href="#"><h4>为什么选择AceNanny</h4></a>
+        <a href="#"><h4>新手父母</h4></a>
+        <a href="#"><h4>保姆阿姨</h4></a>
+        <a href="#"><h4>定价方案</h4></a>
+        <a href="#"><h4>内容中心</h4></a>
+        <a href="#"><h4>关于我们</h4></a>
+        <div class="menu-languages">
+          <a href="index.html"><h5>英文</h5></a>
+          <a href="#"><h5>中文</h5></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero  -->
+    <div class="hero" id="hero">
+      <h1 data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1600">雇佣懂你的保姆/阿姨/月嫂，<br>从此变得无限简单放心</h1>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600" data-aos-duration="1600">用最科技，最安全的方式筛选称心的华人阿姨</h2>
+      <a href="#popup" data-aos="fade-up" data-aos-offset="-20" data-aos-delay="1200" data-aos-duration="1600"><button type="button" class="main-button"><p>一键雇佣</p></button></a>
+    </div>
+
+    <div class="advantages">
+      <h2>北美最强大的华人保姆雇佣平台</h2>
+      <h3>AceNanny -用科技的方式聘请最专业放心的阿姨。 比列出网站更值得信赖，比代理机构更透明实惠。</h3>
+      <div class="cards">
+        <div id="left" class="column">
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="100">
+            <img src="resources/skill.webp">
+            <h4>规范化的职业技能</h4>
+            <p>我们根据保姆的经验，资历以及推荐将其划分为 4个标准技能组合级别以及2个资历级别</p>
+          </div>
+          <div class="card" id="bg-1" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>直面了解未来保姆</h4>
+            <p>我们提供保姆的面试视频以及与其现场对话的机会，并帮助新手父母与其前任雇主直接联系</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+            <img src="resources/parents.webp" id="parents">
+            <h4>多重保险- 免去后顾之忧</h4>
+            <p>我们为每一位保姆提供责任保险以及健康  保险。所有保姆均持有工作许可以及相关疫苗证书。</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" id="black" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>黄金高标准</h4>
+            <img src="resources/qualification.webp" id="aligned-image" style="display: none;">
+            <p>所有加入AceNanny保姆资历，经验均 需经过严格审核考察. 我们的标准和每一位父母一样.</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <img src="resources/history.webp">
+            <h4>透明的多项背景调查</h4>
+            <p>我们对保姆进行全方位的，全球化的背景调查 以及犯罪调查，包括对其多位前任雇主多方求证</p>
+          </div>
+          <div class="card" id="bg-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h4>无风险免费试用</h4>
+            <p>我们提供两天免费试用期。如果您从AceNanny雇佣 保姆并对其不满意，我们将帮助您寻找其他保姆并免费承担 前两日的费用</p>
+          </div>
+          <div class="card" id="bg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>轻松电子签约</h4>
+            <p>我们为您提供自动化签约软件，使您浏览合同 支付佣金，法务税务咨询更便捷。</p>
+          </div>
+        </div>
+      </div>
+      <a href="#popup"><button type="button" class="main-button"><p>一键雇佣</p></button></a>
+    </div>
+
+    <!-- Start  -->
+    <div class="start">
+      <h2>轻松三步:聘请您最称心的阿姨</h2>
+      <div class="section">
+        <div class="block" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-1.webp">
+            <h3>寻找您所在区域的保姆</h3>
+          </div>
+          <ul>
+            <li>· 根据您的需求浏览保姆/阿姨/月嫂的相关资历</li>
+            <li>· 根据语言， 资历， 地域和可用时间筛选</li>
+            <li>· Review nanny provided information and documents</li>
+            <li>· 如有需要，您也可以在平台上发布您的招聘需求帖</li>
+          </ul>
+        </div>
+        <h6>1</h6>
+      </div>
+      <div class="section">
+        <h6>2</h6>
+        <div class="block" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-2.webp">
+            <h3>筛选保姆候选人</h3>
+          </div>
+          <ul>
+            <li>· 请求背景调查以及犯罪背景结果验证</li>
+            <li>· 观看候选人视频并和其直接连线交谈</li>
+            <li>· 查阅候选人推荐信</li>
+            <li>· 请求与候选人前任雇主交谈</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="block" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-3.webp">
+            <h3>联系保姆并得到AceNanny的保护</h3>
+          </div>
+          <ul>
+            <li>· 使用我们的自动化合同生成工具并浏览合同权责</li>
+            <li>· 查阅保姆最新的工作许可</li>
+            <li>· 签署法律合同 ，之后您将自动获取AceNanny提供的保姆责任保险</li>
+            <li>· Set details for nanny’s liability insurance</li>
+          </ul>
+        </div>
+        <h6>3</h6>
+      </div>
+      <a href="#popup"><button type="button" class="main-button"><p>一键雇佣</p></button></a>
+    </div>
+
+    <!-- Why us  -->
+    <div class="why-us">
+      <h3>Why us</h3>
+      <h4>作为新手爸妈，我们深知在北美，找寻合适可靠的阿姨或月嫂，是一件无比劳心劳力的事，这也是我们成立AceNanny的初衷。我们希望帮助新手爸妈 用最科技，最安全的方式筛选合适称心的双语或华人阿姨， 这是AceNanny的使命与愿景。AceNanny是您值得信任的家政合作伙伴。</h4>
+      <a href="#popup"><button type="button" class="main-button"><p>一键雇佣</p></button></a>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <a id="ciao" href="#hero"><img src="resources/logo.svg"></a>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Disclaimer</a>
+      </div>
+      <form action="https://formsubmit.co/05a475cbab3bf6f7401df5a441aff4de" method="POST">
+         <input type="email" name="email" class="text-box" placeholder="Email address" required>
+         <input name="_formsubmit_id" type="text" style="display:none">
+         <input type="hidden" name="_subject" value="New newsletter subscriber!">
+         <input type="hidden" name="_next" value="index.html">
+         <input type="hidden" name="_captcha" value="false">
+         <input type="hidden" name="_template" value="table">
+         <input type="hidden" name="_next" value="https://crreo.github.io/web/index.html">
+         <button class="footer-btn" type="submit"><p>Subescribe newsletter</p></button>
+      </form>
+      <a href="mailto:info@acenanny.com"><img src="resources/mail.svg" id="mail"></a>
+    </div>
+
+    <!-- Link to js file -->
+    <script src="script.js"></script>
+
+</body>
+</html>

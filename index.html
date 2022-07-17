@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS animations library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Altre impostazioni del sito -->
+    <title>ACE NANNY | Find your nanny</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="shortcut icon" href="resources/logo.svg">
+
+  </head>
+  <body>
+
+    <!-- Parallax background -->
+    <div id="parallax-bg-1">
+      <div></div>
+    </div>
+    <div id="parallax-bg-2">
+      <div></div>
+    </div>
+    <div id="parallax-bg-3">
+      <div></div>
+    </div>
+    <div id="parallax-bg-4">
+      <div></div>
+    </div>
+
+    <!-- Language mini popup -->
+    <div class="language-popup">
+      <a href="#"><p>English</p></a>
+      <a href="index-zh.html"><p>Chinese</p></a>
+    </div>
+
+    <!-- Popup -->
+    <div id="popup" class="overlay">
+      <div class="popup">
+        <h2>Let us know your needs</h2>
+        <h3>we'll get back to you with nanny options ASAP.</h3>
+        <a class="close" onclick="javascript:history.back()">&times;</a>
+        <form action="https://formsubmit.co/05a475cbab3bf6f7401df5a441aff4de" method="POST">
+           <input type="text" name="name" class="text-box" placeholder="Your name" required>
+           <input type="email" name="email" class="text-box" placeholder="Your email" required>
+           <textarea name="comment" id="comment" placeholder="Your needs or requirements" rows="8"></textarea>
+           <input name="_formsubmit_id" type="text" style="display:none">
+           <input type="hidden" name="_subject" value="New client!">
+           <input type="hidden" name="_next" value="index.html">
+           <input type="hidden" name="_captcha" value="false">
+           <input type="hidden" name="_template" value="table">
+           <input type="hidden" name="_next" value="https://crreo.github.io/web/index.html">
+           <button class="send-btn" type="submit"><p>Send</p></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <a id="ciao" href="#hero"><img class="logo" src="resources/logo.svg"></a>
+      <div class="links">
+        <a href="#hero" id="ciao"><h4>Why AceNanny</h4></a>
+        <a href="fans.html"><h4>For parents</h4></a>
+        <a href="plans.html"><h4>For nannies</h4></a>
+        <a href="plans.html"><h4>Pricing</h4></a>
+        <a href="contact.html"><h4>Resources</h4></a>
+        <a href="about.html"><h4>About us</h4></a>
+      </div>
+      <a class="languages"><img class="logo" src="resources/world.svg"></a>
+      <div class="scalebutton" id="header-button">
+        <a href="#popup">
+          <button>
+            <h5><span>Get Nanny</span></h5>
+          </button>
+        </a>
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu">
+        <a href="#"><h4>Why AceNanny</h4></a>
+        <a href="#"><h4>For parents</h4></a>
+        <a href="#"><h4>For nannies</h4></a>
+        <a href="#"><h4>Pricing</h4></a>
+        <a href="#"><h4>Resources</h4></a>
+        <a href="#"><h4>About us</h4></a>
+        <div class="menu-languages">
+          <a href="#"><h5>ENGLISH</h5></a>
+          <a href="index-zh.html"><h5>CHINESE</h5></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero  -->
+    <div class="hero" id="hero">
+      <h1 data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1600">Hiring a language nanny <br>finally made simple</h1>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="600" data-aos-duration="1600">Find, screen, and hire a nanny that speaks your language and knows <br>your culture. Do it in a safer and simpler way.</h2>
+      <a href="#popup" data-aos="fade-up" data-aos-offset="-20" data-aos-delay="1200" data-aos-duration="1600"><button type="button" class="main-button"><p>Get Nanny</p></button></a>
+    </div>
+
+    <div class="advantages">
+      <h2>The most powerful platform to find, screen <br>and hire a language nanny</h2>
+      <h3>At AceNanny, we’ve built a better way to hire specialized nannies. Safer and more reliable <br>than listing websites. More transparent and economical than agencies.</h3>
+      <div class="cards">
+        <div id="left" class="column">
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-offset="100">
+            <img src="resources/skill.webp">
+            <h4>Standardized <br>skill sets</h4>
+            <p>4 skill sets and 2 levels of seniority based on experience, qualification, and references.</p>
+          </div>
+          <div class="card" id="bg-1" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>Getting to know the nanny</h4>
+            <p>Pre-recorded interviews. Live video conversations. Direct feedback from prior family.</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="400">
+            <img src="resources/parents.webp" id="parents">
+            <h4>Peace of <br>mind</h4>
+            <p>We provide 3rd party liability insurance for your protection. We contribute to nanny health insurance. Validated covid vaccinations and US work authorization.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card" id="black" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>Qualification minimums</h4>
+            <img src="resources/qualification.webp" id="aligned-image">
+            <p>Strict qualification requirements. Reference checks. Our standards are as high as yours.</p>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <img src="resources/history.webp">
+            <h4>Transparent <br>history</h4>
+            <p>Comprehensive background and criminal checks. Independent feedback from prior employers.</p>
+          </div>
+          <div class="card" id="bg-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <h4>Risk free start</h4>
+            <p>2-day trial. If you hire through us and decide that the nanny is not a good fit we’ll help you find another nanny. First two days are on us.</p>
+          </div>
+          <div class="card" id="bg-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="200">
+            <h4>Easy contracting</h4>
+            <p>Automated contracting tools. Externally reviewed contracts. Pay benchmarks. Legal, employment and tax advisor.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#popup"><button type="button" class="main-button"><p>Get Nanny</p></button></a>
+    </div>
+
+    <!-- Start  -->
+    <div class="start">
+      <h2>Get your nanny in three <br>simple steps</h2>
+      <div class="section">
+        <div class="block" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-1.webp">
+            <h3>Find candidates in your area</h3>
+          </div>
+          <ul>
+            <li>· Browse nannies in the skill set category you need</li>
+            <li>· Filter by language, qualification, location, and availability</li>
+            <li>· Review nanny provided information and documents</li>
+            <li>· You can also choose to post your search publicly on AceNanny</li>
+          </ul>
+        </div>
+        <h6>1</h6>
+      </div>
+      <div class="section">
+        <h6>2</h6>
+        <div class="block" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-2.webp">
+            <h3>Screen selected candidates</h3>
+          </div>
+          <ul>
+            <li>· Request criminal and background verification</li>
+            <li>· Watch nanny interview. Chat with her/him live</li>
+            <li>· Review validated references and feedback from prior families</li>
+            <li>· Request a contact with previous employers</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="block" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+          <div class="block-top">
+            <img src="resources/block-icon-3.webp">
+            <h3>Contract your nanny and get protected</h3>
+          </div>
+          <ul>
+            <li>· Use our automated tools to agree on responsibilities</li>
+            <li>· Get latest verification of nanny’s employment authorization</li>
+            <li>· Automatically generate and sign a legally sound contract</li>
+            <li>· Automatically receive nanny's liability insurance from AceNanny</li>
+          </ul>
+        </div>
+        <h6>3</h6>
+      </div>
+      <a href="#popup"><button type="button" class="main-button"><p>Get Nanny</p></button></a>
+    </div>
+
+    <!-- Why us  -->
+    <div class="why-us">
+      <h3>Why us</h3>
+      <h4>Hiring a nanny that knows your language and culture can be a long, <br>frustrating, and uncertain effort. We know it. That’s why we built AceNanny. <br>At AceNanny you can find, screen, and hire the right nanny in a safer and <br>simpler way</h4>
+      <a href="#popup"><button type="button" class="main-button"><p>Get Nanny</p></button></a>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <a id="ciao" href="#hero"><img src="resources/logo.svg"></a>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Disclaimer</a>
+      </div>
+      <form action="https://formsubmit.co/05a475cbab3bf6f7401df5a441aff4de" method="POST">
+         <input type="email" name="email" class="text-box" placeholder="Email address" required>
+         <input name="_formsubmit_id" type="text" style="display:none">
+         <input type="hidden" name="_subject" value="New newsletter subscriber!">
+         <input type="hidden" name="_next" value="index.html">
+         <input type="hidden" name="_captcha" value="false">
+         <input type="hidden" name="_template" value="table">
+         <input type="hidden" name="_next" value="https://crreo.github.io/web/index.html">
+         <button class="footer-btn" type="submit"><p>Subescribe newsletter</p></button>
+      </form>
+      <a href="mailto:info@acenanny.com"><img src="resources/mail.svg" id="mail"></a>
+    </div>
+
+    <!-- Link to js file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
