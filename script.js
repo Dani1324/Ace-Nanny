@@ -34,7 +34,9 @@ $("a#ciao").on('click', function(event) {
   }
 });
 
+
 // Effects at scroll
+const pageheight = document.body.scrollHeight;
 let header = document.getElementsByClassName('.header');
 let bubble1 = document.getElementById('parallax-bg-1');
 let bubble2 = document.getElementById('parallax-bg-2');
@@ -43,10 +45,14 @@ let bubble4 = document.getElementById('parallax-bg-4');
 
 window.addEventListener('scroll', function(){
   let value = window.scrollY;
-  bubble1.style.top = value * 0.2 + 'px';
-  bubble2.style.top = value * 0.6 + 'px';
-  bubble3.style.top = value * 0.3 + 'px';
-  bubble4.style.top = value * 0.7 + 'px';
+  const height = document.body.scrollHeight;
+
+  if (value < pageheight) {
+    bubble1.style.top = value * 0.015 + 'vh';
+    bubble2.style.top = value * 0.045 + 'vh';
+    bubble3.style.top = value * 0.025 + 'vh';
+    bubble4.style.top = value * 0.0605 + 'vh';
+  }
 
   const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
   var iOS = !window.MSStream && /iPad|iPhone|iPod/.test(navigator.userAgent);
