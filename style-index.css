@@ -67,7 +67,7 @@ a{ text-decoration: none; color: #232429; cursor: pointer;}
 #parallax-bg-4{
   position: absolute;
   overflow-x: hidden;
-  margin-top: 190vh;
+  margin-top: 150vw;
   right: 0vw;
   z-index: -1;
 }
