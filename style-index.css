@@ -496,6 +496,7 @@ button h5{
 .footer-links a{
   margin: 0 1.5vw;
   font-size: 1.05vw;
+  white-space: nowrap;
 }
 
 #mail{
@@ -514,7 +515,7 @@ button h5{
 .footer input{
   font-family: 'Poppins';
   font-size: 1.1vw;
-  padding-top: 0.1vw;
+  padding-top: 0.2vw;
   color: #fff;
   height: 2.9vw;
   border-radius: 1.7vw;
@@ -529,7 +530,7 @@ button h5{
   font-family: 'Poppins';
   font-weight: 300;
   font-size: 1.1vw;
-  padding-top: 0.1vw;
+  padding-top: 0.2vw;
   width: 39%;
   height: 3.3vw;
   margin: 0;
