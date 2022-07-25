@@ -92,3 +92,6 @@ $(".language-popup, .languages").hover(function(){
 if (width < 1024) {
   $(".empty").css("display", "none");
 }
+else {
+  $(".empty2").css("display", "none");
+}
