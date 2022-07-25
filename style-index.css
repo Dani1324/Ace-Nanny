@@ -384,6 +384,12 @@ button h5{
 #parents{ height: 17.7vw;}
 
 
+/* Card mobile order */
+.mobile-card{
+  display: none;
+}
+
+
 /* Start */
 .start{
   width: 80vw;

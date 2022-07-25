@@ -1,3 +1,5 @@
+const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
+
 // AOS animation library
 AOS.init({
   offset: 300,
@@ -50,7 +52,6 @@ window.addEventListener('scroll', function(){
   bubble3.style.top = value * 0.025 + 'vh';
   bubble4.style.left = value * 0.012 + 'vw';
 
-  const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
   var iOS = !window.MSStream && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   if (width > 1025) {
@@ -86,3 +87,8 @@ $(".language-popup, .languages").hover(function(){
 }, function() {
   $(".language-popup").css("display", "none");
 })
+
+
+if (width < 1024) {
+  $(".empty").css("display", "none");
+}
