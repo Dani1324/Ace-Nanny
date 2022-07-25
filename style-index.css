@@ -377,7 +377,7 @@ button h5{
 }
 
 #black{ background-color: #222429; color: #fff;}
-#aligned-image{ position: absolute; height: 7vw; top: 5.5vw; right: 6vw;}
+#aligned-image{ position: absolute; height: 7vw; top: 5.5vw; right: 6vw; -webkit-height: 6vw;}
 #bg-1{ background-image: url('resources/card-bg-1.webp'); background-size: cover; color: #fff;}
 #bg-2{ background-image: url('resources/card-bg-2.webp'); background-size: cover; color: #fff;}
 #bg-3{ background-image: url('resources/card-bg-3.webp'); background-size: cover; color: #fff;}
